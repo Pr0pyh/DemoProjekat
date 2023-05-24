@@ -25,7 +25,7 @@ public class KockaSmera : Area2D
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
     public override void _Process(float delta)
     {
-        GD.Print("Test");
+        
     }
 
     public void _on_KockaSmera_body_entered(Node2D body)
