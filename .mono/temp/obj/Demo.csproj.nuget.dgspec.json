@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/Demo.csproj": {}
+    "/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/Demo.csproj": {}
   },
   "projects": {
-    "/home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/Demo.csproj": {
+    "/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/Demo.csproj",
+        "projectUniqueName": "/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "/home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/Demo.csproj",
+        "projectPath": "/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/Demo.csproj",
         "packagesPath": "/home/andrej/.nuget/packages/",
-        "outputPath": "/home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/.mono/temp/obj/",
+        "outputPath": "/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andrej/.nuget/NuGet/NuGet.Config"

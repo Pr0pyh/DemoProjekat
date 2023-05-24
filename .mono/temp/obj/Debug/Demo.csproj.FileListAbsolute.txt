@@ -7,3 +7,12 @@
 /home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.csproj.CoreCompileInputs.cache
 /home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.dll
 /home/andrej/Desktop/GodotProjekti/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.pdb
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/bin/Debug/Demo.dll
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/bin/Debug/Demo.pdb
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.csproj.AssemblyReference.cache
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.GeneratedMSBuildEditorConfig.editorconfig
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.AssemblyInfoInputs.cache
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.AssemblyInfo.cs
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.csproj.CoreCompileInputs.cache
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.dll
+/home/andrej/Desktop/GodotProjects/Demo/DemoProjekat/.mono/temp/obj/Debug/Demo.pdb
