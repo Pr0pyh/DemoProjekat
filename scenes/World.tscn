@@ -41,6 +41,13 @@ margin_right = 124.0
 margin_bottom = 137.0
 text = "dole"
 
+[node name="Label" type="Label" parent="CanvasLayer"]
+margin_left = 828.0
+margin_top = 29.0
+margin_right = 984.0
+margin_bottom = 43.0
+text = "Available: "
+
 [connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="CanvasLayer/Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="CanvasLayer/Button3" to="." method="_on_Button3_pressed"]

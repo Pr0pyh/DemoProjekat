@@ -11,11 +11,14 @@ public class World : Node2D
     //Scena na osnovu koje se instancira
     PackedScene kockaSmeraScene;
     Sprite shadowKocka;
+    //pristup labeli koja pokazuje broj kocki koje su dostupne
+    Label dostupanBroj;
     KockaSmera.VRSTA_KOCKE vrstaKocke;
     //Poziva se kada se napravi World scena
     public override void _Ready()
     {
         kockaSmeraScene = GD.Load<PackedScene>("res://scenes/KockaSmera.tscn");
+        dostupanBroj = GetNode<CanvasLayer>("CanvasLayer").GetNode<Label>("Label");
         shadowKocka = GetNode<Sprite>("Sprite");
         GD.Print("nesto");
     }
@@ -30,6 +33,7 @@ public class World : Node2D
             kockaSmera.drugaKocka(vrstaKocke);
             kockaSmera.GlobalPosition = GetGlobalMousePosition();
             broj--;
+            dostupanBroj.Text = "Available: " + broj;
         }
     }
 
