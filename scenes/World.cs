@@ -10,17 +10,20 @@ public class World : Node2D
     KockaSmera kockaSmera;
     //Scena na osnovu koje se instancira
     PackedScene kockaSmeraScene;
+    Sprite shadowKocka;
     KockaSmera.VRSTA_KOCKE vrstaKocke;
     //Poziva se kada se napravi World scena
     public override void _Ready()
     {
         kockaSmeraScene = GD.Load<PackedScene>("res://scenes/KockaSmera.tscn");
+        shadowKocka = GetNode<Sprite>("Sprite");
+        GD.Print("nesto");
     }
 
     //Poziva se pri svakom inputu
     public override void _Input(InputEvent @event)
     {
-        if(@event.IsActionPressed("ui_accept") && broj > 0)
+        if(@event.IsActionPressed("mouse1") && broj > 0)
         {
             kockaSmera = (KockaSmera)kockaSmeraScene.Instance();
             AddChild(kockaSmera);
@@ -30,20 +33,29 @@ public class World : Node2D
         }
     }
 
+    public override void _Process(float delta)
+    {
+        shadowKocka.GlobalPosition = GetGlobalMousePosition();
+    }
+
     public void _on_Button_pressed()
     {
         vrstaKocke = KockaSmera.VRSTA_KOCKE.LEVO;
+        shadowKocka.GlobalRotation = Mathf.Deg2Rad(270);
     }
     public void _on_Button2_pressed()
     {
         vrstaKocke = KockaSmera.VRSTA_KOCKE.DESNO;
+        shadowKocka.GlobalRotation = Mathf.Deg2Rad(90);
     }
     public void _on_Button3_pressed()
     {
         vrstaKocke = KockaSmera.VRSTA_KOCKE.GORE;
+        shadowKocka.GlobalRotation = Mathf.Deg2Rad(0);
     }
     public void _on_Button4_pressed()
     {
         vrstaKocke = KockaSmera.VRSTA_KOCKE.DOLE;
+        shadowKocka.GlobalRotation = Mathf.Deg2Rad(180);
     }
 }

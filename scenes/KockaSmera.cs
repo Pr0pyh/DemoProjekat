@@ -20,7 +20,6 @@ public class KockaSmera : Area2D
     public override void _Ready()
     {
         sprite = GetNode<Sprite>("Sprite");
-        GD.Print("kreirano");
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
